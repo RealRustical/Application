@@ -1,3 +1,4 @@
+import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -18,3 +19,6 @@ function TestPage() {
 function HomePage() {
   return <h1>Home</h1>;
 }
+
+
+export default App
